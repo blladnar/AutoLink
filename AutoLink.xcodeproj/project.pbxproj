@@ -1,0 +1,467 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		70E9336C13F785AF006D57DF /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 70E9336B13F785AF006D57DF /* Cocoa.framework */; };
+		70E9337613F785AF006D57DF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 70E9337413F785AF006D57DF /* InfoPlist.strings */; };
+		70E9337813F785AF006D57DF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 70E9337713F785AF006D57DF /* main.m */; };
+		70E9337C13F785AF006D57DF /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 70E9337A13F785AF006D57DF /* Credits.rtf */; };
+		70E9337F13F785AF006D57DF /* AutoLinkAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 70E9337E13F785AF006D57DF /* AutoLinkAppDelegate.m */; };
+		70E9338213F785AF006D57DF /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 70E9338013F785AF006D57DF /* MainMenu.xib */; };
+		70E9338A13F785AF006D57DF /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 70E9338913F785AF006D57DF /* SenTestingKit.framework */; };
+		70E9338B13F785AF006D57DF /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 70E9336B13F785AF006D57DF /* Cocoa.framework */; };
+		70E9339313F785AF006D57DF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 70E9339113F785AF006D57DF /* InfoPlist.strings */; };
+		70E9339513F785AF006D57DF /* AutoLinkTests.h in Resources */ = {isa = PBXBuildFile; fileRef = 70E9339413F785AF006D57DF /* AutoLinkTests.h */; };
+		70E9339713F785B0006D57DF /* AutoLinkTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 70E9339613F785B0006D57DF /* AutoLinkTests.m */; };
+		70FAE09F13F825E7003898D1 /* NSString+FindURLs.m in Sources */ = {isa = PBXBuildFile; fileRef = 70FAE09E13F825E7003898D1 /* NSString+FindURLs.m */; };
+		70FAE0A313F82603003898D1 /* NSTextView+AutomaticLinkDetection.m in Sources */ = {isa = PBXBuildFile; fileRef = 70FAE0A213F82603003898D1 /* NSTextView+AutomaticLinkDetection.m */; };
+		70FAE0A613F8272A003898D1 /* NSAttributedString+Hyperlink.m in Sources */ = {isa = PBXBuildFile; fileRef = 70FAE0A513F8272A003898D1 /* NSAttributedString+Hyperlink.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		70E9338C13F785AF006D57DF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 70E9335E13F785AE006D57DF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 70E9336613F785AE006D57DF;
+			remoteInfo = AutoLink;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		70E9336713F785AE006D57DF /* AutoLink.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AutoLink.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		70E9336B13F785AF006D57DF /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		70E9336E13F785AF006D57DF /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		70E9336F13F785AF006D57DF /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		70E9337013F785AF006D57DF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		70E9337313F785AF006D57DF /* AutoLink-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AutoLink-Info.plist"; sourceTree = "<group>"; };
+		70E9337513F785AF006D57DF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		70E9337713F785AF006D57DF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		70E9337913F785AF006D57DF /* AutoLink-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AutoLink-Prefix.pch"; sourceTree = "<group>"; };
+		70E9337B13F785AF006D57DF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		70E9337D13F785AF006D57DF /* AutoLinkAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AutoLinkAppDelegate.h; sourceTree = "<group>"; };
+		70E9337E13F785AF006D57DF /* AutoLinkAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AutoLinkAppDelegate.m; sourceTree = "<group>"; };
+		70E9338113F785AF006D57DF /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		70E9338813F785AF006D57DF /* AutoLinkTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AutoLinkTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		70E9338913F785AF006D57DF /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		70E9339013F785AF006D57DF /* AutoLinkTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AutoLinkTests-Info.plist"; sourceTree = "<group>"; };
+		70E9339213F785AF006D57DF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		70E9339413F785AF006D57DF /* AutoLinkTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AutoLinkTests.h; sourceTree = "<group>"; };
+		70E9339613F785B0006D57DF /* AutoLinkTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AutoLinkTests.m; sourceTree = "<group>"; };
+		70FAE09D13F825E7003898D1 /* NSString+FindURLs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+FindURLs.h"; sourceTree = "<group>"; };
+		70FAE09E13F825E7003898D1 /* NSString+FindURLs.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+FindURLs.m"; sourceTree = "<group>"; };
+		70FAE0A113F82603003898D1 /* NSTextView+AutomaticLinkDetection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSTextView+AutomaticLinkDetection.h"; sourceTree = "<group>"; };
+		70FAE0A213F82603003898D1 /* NSTextView+AutomaticLinkDetection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSTextView+AutomaticLinkDetection.m"; sourceTree = "<group>"; };
+		70FAE0A413F8272A003898D1 /* NSAttributedString+Hyperlink.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSAttributedString+Hyperlink.h"; sourceTree = "<group>"; };
+		70FAE0A513F8272A003898D1 /* NSAttributedString+Hyperlink.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSAttributedString+Hyperlink.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		70E9336413F785AE006D57DF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				70E9336C13F785AF006D57DF /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		70E9338413F785AF006D57DF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				70E9338A13F785AF006D57DF /* SenTestingKit.framework in Frameworks */,
+				70E9338B13F785AF006D57DF /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		70E9335C13F785AE006D57DF = {
+			isa = PBXGroup;
+			children = (
+				70E9337113F785AF006D57DF /* AutoLink */,
+				70E9338E13F785AF006D57DF /* AutoLinkTests */,
+				70E9336A13F785AF006D57DF /* Frameworks */,
+				70E9336813F785AE006D57DF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		70E9336813F785AE006D57DF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				70E9336713F785AE006D57DF /* AutoLink.app */,
+				70E9338813F785AF006D57DF /* AutoLinkTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		70E9336A13F785AF006D57DF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				70E9336B13F785AF006D57DF /* Cocoa.framework */,
+				70E9338913F785AF006D57DF /* SenTestingKit.framework */,
+				70E9336D13F785AF006D57DF /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		70E9336D13F785AF006D57DF /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				70E9336E13F785AF006D57DF /* AppKit.framework */,
+				70E9336F13F785AF006D57DF /* CoreData.framework */,
+				70E9337013F785AF006D57DF /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		70E9337113F785AF006D57DF /* AutoLink */ = {
+			isa = PBXGroup;
+			children = (
+				70FAE0A413F8272A003898D1 /* NSAttributedString+Hyperlink.h */,
+				70FAE0A513F8272A003898D1 /* NSAttributedString+Hyperlink.m */,
+				70FAE09D13F825E7003898D1 /* NSString+FindURLs.h */,
+				70FAE09E13F825E7003898D1 /* NSString+FindURLs.m */,
+				70E9337D13F785AF006D57DF /* AutoLinkAppDelegate.h */,
+				70E9337E13F785AF006D57DF /* AutoLinkAppDelegate.m */,
+				70E9338013F785AF006D57DF /* MainMenu.xib */,
+				70E9337213F785AF006D57DF /* Supporting Files */,
+				70FAE0A113F82603003898D1 /* NSTextView+AutomaticLinkDetection.h */,
+				70FAE0A213F82603003898D1 /* NSTextView+AutomaticLinkDetection.m */,
+			);
+			path = AutoLink;
+			sourceTree = "<group>";
+		};
+		70E9337213F785AF006D57DF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				70E9337313F785AF006D57DF /* AutoLink-Info.plist */,
+				70E9337413F785AF006D57DF /* InfoPlist.strings */,
+				70E9337713F785AF006D57DF /* main.m */,
+				70E9337913F785AF006D57DF /* AutoLink-Prefix.pch */,
+				70E9337A13F785AF006D57DF /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		70E9338E13F785AF006D57DF /* AutoLinkTests */ = {
+			isa = PBXGroup;
+			children = (
+				70E9339413F785AF006D57DF /* AutoLinkTests.h */,
+				70E9339613F785B0006D57DF /* AutoLinkTests.m */,
+				70E9338F13F785AF006D57DF /* Supporting Files */,
+			);
+			path = AutoLinkTests;
+			sourceTree = "<group>";
+		};
+		70E9338F13F785AF006D57DF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				70E9339013F785AF006D57DF /* AutoLinkTests-Info.plist */,
+				70E9339113F785AF006D57DF /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		70E9336613F785AE006D57DF /* AutoLink */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 70E9339A13F785B0006D57DF /* Build configuration list for PBXNativeTarget "AutoLink" */;
+			buildPhases = (
+				70E9336313F785AE006D57DF /* Sources */,
+				70E9336413F785AE006D57DF /* Frameworks */,
+				70E9336513F785AE006D57DF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AutoLink;
+			productName = AutoLink;
+			productReference = 70E9336713F785AE006D57DF /* AutoLink.app */;
+			productType = "com.apple.product-type.application";
+		};
+		70E9338713F785AF006D57DF /* AutoLinkTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 70E9339D13F785B0006D57DF /* Build configuration list for PBXNativeTarget "AutoLinkTests" */;
+			buildPhases = (
+				70E9338313F785AF006D57DF /* Sources */,
+				70E9338413F785AF006D57DF /* Frameworks */,
+				70E9338513F785AF006D57DF /* Resources */,
+				70E9338613F785AF006D57DF /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				70E9338D13F785AF006D57DF /* PBXTargetDependency */,
+			);
+			name = AutoLinkTests;
+			productName = AutoLinkTests;
+			productReference = 70E9338813F785AF006D57DF /* AutoLinkTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		70E9335E13F785AE006D57DF /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 70E9336113F785AE006D57DF /* Build configuration list for PBXProject "AutoLink" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 70E9335C13F785AE006D57DF;
+			productRefGroup = 70E9336813F785AE006D57DF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				70E9336613F785AE006D57DF /* AutoLink */,
+				70E9338713F785AF006D57DF /* AutoLinkTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		70E9336513F785AE006D57DF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				70E9337613F785AF006D57DF /* InfoPlist.strings in Resources */,
+				70E9337C13F785AF006D57DF /* Credits.rtf in Resources */,
+				70E9338213F785AF006D57DF /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		70E9338513F785AF006D57DF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				70E9339313F785AF006D57DF /* InfoPlist.strings in Resources */,
+				70E9339513F785AF006D57DF /* AutoLinkTests.h in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		70E9338613F785AF006D57DF /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		70E9336313F785AE006D57DF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				70E9337813F785AF006D57DF /* main.m in Sources */,
+				70E9337F13F785AF006D57DF /* AutoLinkAppDelegate.m in Sources */,
+				70FAE09F13F825E7003898D1 /* NSString+FindURLs.m in Sources */,
+				70FAE0A313F82603003898D1 /* NSTextView+AutomaticLinkDetection.m in Sources */,
+				70FAE0A613F8272A003898D1 /* NSAttributedString+Hyperlink.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		70E9338313F785AF006D57DF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				70E9339713F785B0006D57DF /* AutoLinkTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		70E9338D13F785AF006D57DF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 70E9336613F785AE006D57DF /* AutoLink */;
+			targetProxy = 70E9338C13F785AF006D57DF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		70E9337413F785AF006D57DF /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				70E9337513F785AF006D57DF /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		70E9337A13F785AF006D57DF /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				70E9337B13F785AF006D57DF /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		70E9338013F785AF006D57DF /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				70E9338113F785AF006D57DF /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		70E9339113F785AF006D57DF /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				70E9339213F785AF006D57DF /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		70E9339813F785B0006D57DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		70E9339913F785B0006D57DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		70E9339B13F785B0006D57DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AutoLink/AutoLink-Prefix.pch";
+				INFOPLIST_FILE = "AutoLink/AutoLink-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		70E9339C13F785B0006D57DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AutoLink/AutoLink-Prefix.pch";
+				INFOPLIST_FILE = "AutoLink/AutoLink-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		70E9339E13F785B0006D57DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/AutoLink.app/Contents/MacOS/AutoLink";
+				FRAMEWORK_SEARCH_PATHS = "$(DEVELOPER_LIBRARY_DIR)/Frameworks";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AutoLink/AutoLink-Prefix.pch";
+				INFOPLIST_FILE = "AutoLinkTests/AutoLinkTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		70E9339F13F785B0006D57DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/AutoLink.app/Contents/MacOS/AutoLink";
+				FRAMEWORK_SEARCH_PATHS = "$(DEVELOPER_LIBRARY_DIR)/Frameworks";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AutoLink/AutoLink-Prefix.pch";
+				INFOPLIST_FILE = "AutoLinkTests/AutoLinkTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		70E9336113F785AE006D57DF /* Build configuration list for PBXProject "AutoLink" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				70E9339813F785B0006D57DF /* Debug */,
+				70E9339913F785B0006D57DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		70E9339A13F785B0006D57DF /* Build configuration list for PBXNativeTarget "AutoLink" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				70E9339B13F785B0006D57DF /* Debug */,
+				70E9339C13F785B0006D57DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		70E9339D13F785B0006D57DF /* Build configuration list for PBXNativeTarget "AutoLinkTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				70E9339E13F785B0006D57DF /* Debug */,
+				70E9339F13F785B0006D57DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 70E9335E13F785AE006D57DF /* Project object */;
+}
