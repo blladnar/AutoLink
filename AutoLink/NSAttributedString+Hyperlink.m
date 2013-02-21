@@ -19,6 +19,10 @@
  	
 	[attrString endEditing];
  	
+	#if __has_feature(objc_arc)
+    	return attrString;
+    	#else
 	return [attrString autorelease];
+    	#endif
 }
 @end
