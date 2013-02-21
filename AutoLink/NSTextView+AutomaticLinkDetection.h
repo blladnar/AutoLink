@@ -7,7 +7,7 @@
 //
 
 #import <AppKit/AppKit.h>
-#import "NSString+FindURLs.h"
+
 @interface NSTextView (NSTextView_AutomaticLinkDetection)
 
 -(void)detectAndAddLinks;

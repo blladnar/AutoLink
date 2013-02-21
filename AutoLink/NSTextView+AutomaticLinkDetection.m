@@ -31,7 +31,7 @@
         NSRange range = [match range];
         NSURL* url = [match URL];
         NSString* str = [string substringWithRange:range];
-        NSAttributedString *linkString = [NSAttributedString hyperlinkFromString:str withURL:[NSURL URLWithString:link]];
+        NSAttributedString *linkString = [NSAttributedString hyperlinkFromString:str withURL:url];
         [textStorage replaceCharactersInRange:range withAttributedString:linkString];
     }
 }
