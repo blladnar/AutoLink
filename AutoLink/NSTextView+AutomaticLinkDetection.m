@@ -11,21 +11,6 @@
 
 @implementation NSTextView (NSTextView_AutomaticLinkDetection)
 
-//-(void)detectAndAddLinks
-//{
-//   NSArray *linkLocations = [[self string] locationsOfLinks];
-//   NSArray *links = [[self string] arrayOfLinks];
-//   
-//   int i=0;
-//   for( NSString *link in links )
-//   {
-//      NSAttributedString *linkString = [NSAttributedString hyperlinkFromString:link withURL:[NSURL URLWithString:link]];
-//      [[self textStorage] replaceCharactersInRange:[[linkLocations objectAtIndex:i] range] withAttributedString:linkString];
-//      i++;
-//   }
-//   
-//}
-
 - (void)detectAndAddLinks {
 
     NSTextStorage* textStorage = [self textStorage];
