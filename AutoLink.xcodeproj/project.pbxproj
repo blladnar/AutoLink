@@ -18,7 +18,6 @@
 		70E9339313F785AF006D57DF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 70E9339113F785AF006D57DF /* InfoPlist.strings */; };
 		70E9339513F785AF006D57DF /* AutoLinkTests.h in Resources */ = {isa = PBXBuildFile; fileRef = 70E9339413F785AF006D57DF /* AutoLinkTests.h */; };
 		70E9339713F785B0006D57DF /* AutoLinkTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 70E9339613F785B0006D57DF /* AutoLinkTests.m */; };
-		70FAE09F13F825E7003898D1 /* NSString+FindURLs.m in Sources */ = {isa = PBXBuildFile; fileRef = 70FAE09E13F825E7003898D1 /* NSString+FindURLs.m */; };
 		70FAE0A313F82603003898D1 /* NSTextView+AutomaticLinkDetection.m in Sources */ = {isa = PBXBuildFile; fileRef = 70FAE0A213F82603003898D1 /* NSTextView+AutomaticLinkDetection.m */; };
 		70FAE0A613F8272A003898D1 /* NSAttributedString+Hyperlink.m in Sources */ = {isa = PBXBuildFile; fileRef = 70FAE0A513F8272A003898D1 /* NSAttributedString+Hyperlink.m */; };
 /* End PBXBuildFile section */
@@ -53,8 +52,6 @@
 		70E9339213F785AF006D57DF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		70E9339413F785AF006D57DF /* AutoLinkTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AutoLinkTests.h; sourceTree = "<group>"; };
 		70E9339613F785B0006D57DF /* AutoLinkTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AutoLinkTests.m; sourceTree = "<group>"; };
-		70FAE09D13F825E7003898D1 /* NSString+FindURLs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+FindURLs.h"; sourceTree = "<group>"; };
-		70FAE09E13F825E7003898D1 /* NSString+FindURLs.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+FindURLs.m"; sourceTree = "<group>"; };
 		70FAE0A113F82603003898D1 /* NSTextView+AutomaticLinkDetection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSTextView+AutomaticLinkDetection.h"; sourceTree = "<group>"; };
 		70FAE0A213F82603003898D1 /* NSTextView+AutomaticLinkDetection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSTextView+AutomaticLinkDetection.m"; sourceTree = "<group>"; };
 		70FAE0A413F8272A003898D1 /* NSAttributedString+Hyperlink.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSAttributedString+Hyperlink.h"; sourceTree = "<group>"; };
@@ -126,8 +123,6 @@
 			children = (
 				70FAE0A413F8272A003898D1 /* NSAttributedString+Hyperlink.h */,
 				70FAE0A513F8272A003898D1 /* NSAttributedString+Hyperlink.m */,
-				70FAE09D13F825E7003898D1 /* NSString+FindURLs.h */,
-				70FAE09E13F825E7003898D1 /* NSString+FindURLs.m */,
 				70E9337D13F785AF006D57DF /* AutoLinkAppDelegate.h */,
 				70E9337E13F785AF006D57DF /* AutoLinkAppDelegate.m */,
 				70E9338013F785AF006D57DF /* MainMenu.xib */,
@@ -276,7 +271,6 @@
 			files = (
 				70E9337813F785AF006D57DF /* main.m in Sources */,
 				70E9337F13F785AF006D57DF /* AutoLinkAppDelegate.m in Sources */,
-				70FAE09F13F825E7003898D1 /* NSString+FindURLs.m in Sources */,
 				70FAE0A313F82603003898D1 /* NSTextView+AutomaticLinkDetection.m in Sources */,
 				70FAE0A613F8272A003898D1 /* NSAttributedString+Hyperlink.m in Sources */,
 			);
